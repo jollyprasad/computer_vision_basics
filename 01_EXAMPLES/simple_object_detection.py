@@ -3,8 +3,8 @@ from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")
 
-#image = cv2.imread("person-image.jpg")
-image = cv2.imread("fruits.jpg")
+image = cv2.imread("resources/person-image.jpg")
+#image = cv2.imread("resources/fruits.jpg")
 
 results = model(image)  
 
